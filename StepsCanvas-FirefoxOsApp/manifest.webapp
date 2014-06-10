@@ -1,0 +1,18 @@
+{
+    "version":"1.0",
+	"name": "StepsCanvas",
+    "description": "This app gives you a step wise moving circle!",
+    "launch_path": "/index.html",
+    "icons": {
+        
+    },
+	"developer": {
+        "name": "Kousik",
+        "url": "http://aboutkousik.blogspot.com"
+    },
+    "default_locale": "en",
+	"type": "privileged",
+    "permissions": {
+        
+    }
+}

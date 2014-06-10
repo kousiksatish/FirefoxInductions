@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en-gb" dir="ltr">
+
+    <head>
+		
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Steps Canvas</title>
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon.png">
+        <link id="data-uikit-theme" rel="stylesheet" href="css/uikit.docs.min.css">
+        <link rel="stylesheet" href="css/docs.css">
+        <link rel="stylesheet" href="../vendor/highlight/highlight.css">
+        <script src="stepscanvas.js"></script>
+        <script src="vendor/jquery.js"></script>
+        <script src="dist/js/uikit.min.js"></script>
+        <script src="vendor/highlight/highlight.js"></script>
+        <script src="js/docs.js"></script>
+    </head>
+
+    <body class="tm-background" onload="draw(0)">
+
+        <nav class="tm-navbar uk-navbar uk-navbar-attached">
+            <div class="uk-container uk-container-center">
+
+                <center><a class="uk-navbar-brand uk-hidden-small" href="../index.html"><font color="white">Steps</font></a></center>
+
+           
+
+                <a href="#tm-offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
+
+                <div class="uk-navbar-brand uk-navbar-center uk-visible-small"><font color="white">Steps</font></div>
+
+            </div>
+        </nav>
+
+        <div class="tm-middle">
+            <div class="uk-container uk-container-center">
+
+                <div class="uk-grid" data-uk-grid-margin>
+               
+                    <div class="tm-main uk-width-medium-1-1">
+						
+                        <article class="uk-article">
+							
+							
+								<center>
+								
+								<button onclick="draw(1)">Start</button>
+								<button onclick="draw(2)">Stop</button>
+								
+								</center>
+								<canvas id="canvas" width="500" height="500"></canvas>
+								
+                            
+                        </article>
+					
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+       
+
+       
+
+    </body>
+</html>
