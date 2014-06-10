@@ -1,0 +1,21 @@
+{
+    "version":"1.0",
+	"name": "Steps",
+    "description": "This app gives you a step wise moving circle!",
+    "launch_path": "/index.html",
+    "icons": {
+        "16": "/images/icon_016.png",
+        "32": "/images/icon_032.png",
+        "48": "/images/icon_048.png",
+        "128": "/images/icon_128.png"
+    },
+	"developer": {
+        "name": "Kousik",
+        "url": "http://aboutkousik.blogspot.com"
+    },
+    "default_locale": "en",
+	"type": "privileged",
+    "permissions": {
+        
+    }
+}
